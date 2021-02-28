@@ -1,0 +1,35 @@
+#+TITLE: Org GTD
+#+FILETAGS: :PROJECT:
+* Org GTD
+** TODO Projects Management
+Idea: For each project, create an associated file. On refile, add option to send to project.
+Also add option to merge if a project with the same name already exists.
+
+How to detect projects in process inbox ?
+Possibilities:
+- First headline is the project title, subheadlines are to be merged (meaning if subheadline already exists, merge subheadline tree with current subheadline tree).
+- First headline is the project title, merge everything (I kinda like the idea, less difference with project and subproject).
+- Ask on processing to wich project the item belongs and merge it at LEVEL=0 -> Limit to single item processing, can be cumbersome.
+- Capture create project and subproject skeleton, processing is almost automated with second proposition.
+- Capture add a property that identifies the project it belongs to, processing is automated.
+
+*** DONE Create project file if new project
+*** DONE Change refile process for project
+*** DONE Merge project inbox tree after refile
+Project :
+
+- Proj
+  + Subproj
+    - Do this
+    - Do that
+  + Subproj
+    - Do also that
+
+becomes
+
+- Proj
+  + Subproj
+    - Do this
+    - Do that
+    - Do also that
+*** TODO Add project tag to project file

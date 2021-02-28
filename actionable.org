@@ -1,0 +1,56 @@
+#+STARTUP: overview indent align inlineimages hidestars logdone logrepeat logreschedule logredeadline
+#+TODO: NEXT(n) TODO(t) WAIT(w@) PROJ(p) SUBPROJ(s) | DONE(d) CANCELED(c@)
+
+* Actions
+:PROPERTIES:
+:CATEGORY: Action
+:END:
+
+* Delegated
+:PROPERTIES:
+:CATEGORY: Delegated
+:END:
+
+* Scheduled
+:PROPERTIES:
+:CATEGORY: Scheduled
+:END:
+
+* Projects
+:PROPERTIES:
+:TRIGGER: next-sibling todo!(NEXT)
+:CATEGORY: Projects
+:END:
+** Bigger Projectile
+[2021-02-24 Wed 21:56]
+*** NEXT Add hooks
+*** TODO Publish
+*** TODO Edit README.md
+*** TODO Add keybindings
+*** TODO Add templates
+** PROJ Org GTD
+[2021-02-25 Thu 11:17]
+*** DONE Add project merge when same headline (i.e. same project)
+CLOSED: [2021-02-25 Thu 17:11]
+*** DONE Add send actionnable to project
+CLOSED: [2021-02-25 Thu 17:11]
+*** DONE Add separate capture
+CLOSED: [2021-02-25 Thu 16:03]
+*** DONE Add project capture
+CLOSED: [2021-02-25 Thu 16:23]
+*** NEXT Add org-roam support
+*** TODO Fix clarify in project single action processing
+*** TODO Add timestamp to project capture
+*** TODO Add option to autocommit on DONE
+*** TODO Fix switching workspace bug on inbox processing
+*** TODO Fix nextify: new entry shouldn't be marked as NEXT if project exists and isn't stuck
+*** TODO Fix cycling in TODO items when tasks are done in the wrong order: DONE becomes NEXT
+[2021-02-25 Thu 17:11]
+*** SUBPROJ Project management
+**** DONE Subproject management
+CLOSED: [2021-02-26 Fri 03:54]
+***** DONE Add Project Tree: multiple subheadlines each headline is a project, with top headline being the main project
+CLOSED: [2021-02-25 Thu 17:33]
+***** DONE Add subproject as project on demand and in intelligent order
+CLOSED: [2021-02-26 Fri 03:54]
+**** NEXT Split projects into multiple files

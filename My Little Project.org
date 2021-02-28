@@ -1,0 +1,5 @@
+#+STARTUP: overview indent align inlineimages hidestars logdone logrepeat logreschedule logredeadline
+#+TODO: NEXT(n) TODO(t) WAIT(w@) | DONE(d) CANCELED(c@)
+* My Little Project
+** TODO Achieve them
+** NEXT Choose goals
